@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("OK"))
+		w.Write([]byte("OK123"))
 	})
 
 	log.Println("Server running at :8080")
